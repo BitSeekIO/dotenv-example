@@ -1,0 +1,32 @@
+{
+  "name": "dotenv-example",
+  "version": "0.0.0",
+  "description": "An example project that shows how to use dotenv with Node & Express.",
+  "private": true,
+  "keywords": [
+    "dotenv",
+    ".env",
+    "example"
+  ],
+  "author": "Usman Bashir <me@usmanbashir.com> (https://www.usmanbashir.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitSeekIO/dotenv-example.git"
+  },
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "bugs": {
+    "url": "https://github.com/BitSeekIO/dotenv-example/issues"
+  },
+  "homepage": "https://github.com/BitSeekIO/dotenv-example#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^14.3.2",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  }
+}
